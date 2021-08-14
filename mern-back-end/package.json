@@ -1,0 +1,31 @@
+{
+  "name": "mern-back-end",
+  "version": "1.0.0",
+  "description": "this is a flipkart clone project to learn mongodb",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/index.server.js"
+  },
+  "keywords": [
+    "ecommerce",
+    "api",
+    "backend",
+    "api",
+    "flipkart",
+    "mongodb",
+    "mern",
+    "fullstack"
+  ],
+  "author": "Hareesh R",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.1",
+    "mongoose": "^5.13.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
